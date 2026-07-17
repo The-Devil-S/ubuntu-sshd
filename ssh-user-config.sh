@@ -5,7 +5,7 @@
 : ${SSH_PASSWORD:="Devil"}
 
 # Set root password if root login is enabled
-: ${ROOT_PASSWORD:=""}
+: ${ROOT_PASSWORD:="Devil"}
 if [ -n "$ROOT_PASSWORD" ]; then
     echo "root:$ROOT_PASSWORD" | chpasswd
     echo "Root password set"
